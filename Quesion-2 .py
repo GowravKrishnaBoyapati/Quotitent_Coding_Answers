@@ -1,5 +1,5 @@
 def segment(x,space):
-	n=len(spac)
+	n=len(space)
 	min,max=[0]*(n-x+1),-2**31-1
 	for i in range(n-x):
 		min[i]=2**31-1
